@@ -5,7 +5,6 @@
 package com.mycompany.firstproject;
 
 import java.util.Scanner;
-import javax.lang.model.SourceVersion;
 import javax.swing.JOptionPane;
 /**
  *
