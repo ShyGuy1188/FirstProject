@@ -67,7 +67,20 @@ public class FirstProject {
             System.out.println(task.printDetails());
         }
         System.out.println("Total hours: " + totalHours);
-    }
+        
+        TaskManager taskManager = new TaskManager();
+        taskManager.displayDoneTasks();
+        taskManager.displayLongestDurationTask();
+        taskManager.searchTaskByName("Create Login");
+        taskManager.searchTasksByDeveloper("Samantha Paulson");
+        taskManager.deleteTaskByName("Create Reports");
+        taskManager.displayReport();
+
+
+
+    
+     
+     }
        
     }
 
